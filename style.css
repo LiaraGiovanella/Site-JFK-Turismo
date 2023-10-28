@@ -1,0 +1,160 @@
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    font-size: 62.5%;
+}
+
+
+#banner {
+    width: 100%;
+}
+
+#img-grid {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgb(0, 0, 0);
+
+}
+
+.produtos {
+    height: 800px;
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    grid-column-gap: 3%;
+    grid-row-gap: 5%;
+    margin-top: 5%;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+#img-grid:hover {
+    box-shadow: 10px 10px 20px black;
+}
+
+.pacote{
+    margin: 1%;
+    padding: 1%;
+    padding-bottom: 2%;
+    box-shadow: 2px 2px 20px  rgb(146, 146, 146);
+    
+}
+
+.pacote:hover{
+    box-shadow: 5px 5px 20px  rgb(87, 87, 87);
+    cursor: pointer;
+}
+
+#pacotes-titulo{
+    text-align: center;
+    margin: 2%;
+}
+
+.botao-pacote{
+    margin-top: 2%;
+    justify-items: center;
+}
+
+.lugar-titulo{
+    margin-top: 2%;
+}
+
+.botao-menu:hover{
+    background-color: rgb(230, 230, 230);
+    border-radius: 10em;
+}
+
+.img-mais-info{
+    border-radius: 2%;
+    box-shadow: 1px 1px 10px  rgb(170, 170, 170);
+}
+
+.mais-info{
+    margin-top: 5%;
+}
+
+.mais-info-titulo{
+    margin-top: 5%;
+    margin-bottom: 2%;
+    margin-left: 10%;
+}
+
+.login-titulo{
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: 4%;
+}
+
+.login-componente{
+    margin-top: 3%;
+}
+
+.form-margin{
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.pagamento-topo{
+    align-items: center;
+}
+
+.pagamento-caixa{
+    border-style: solid;
+    border-color: rgb(255, 193, 7);
+    border-radius: 1em;
+    border-width: 0.1em;
+    margin: 2.5%;
+    font-size: 1em;
+}
+
+.pagamento-titulo{
+    margin: 2.5%;
+    font-size: 1.5em;
+}
+
+.pagamento-botao{
+    margin: 2.5%;
+}
+
+.finalizar-titulo{
+    text-align: center;
+    margin: 2.5%;
+}
+
+.finalizar-img{
+    border-radius: 1em;
+    box-shadow: 1px 1px 10px  rgb(170, 170, 170);   
+}
+
+.pagamento-radio{
+    padding-left: 2%;
+}
+
+
+.finalizar-caixa{
+    border-style: solid;
+    border-color: rgb(255, 193, 7);
+    border-radius: 1em;
+    border-width: 0.1em;
+    margin: 2.5%;
+    
+}
+
+.data-titulo{
+    margin-bottom: 4%;
+}
+
+.total-titulo{
+    margin-bottom: 10%;
+}
+
+#hr-finalizar{
+    
+    border-color: rgb(255, 193, 7);
+    border-width: 0.1em;
+    opacity: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JFK Turismo</title>
+    <link rel="icon" href="https://pngimg.com/uploads/paper_plane/paper_plane_PNG14.png">
+
+    <link rel="stylesheet" href="style.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <!-- Menu do Site -->
+   
+    <nav class="navbar navbar-expand-md bg-light">
+        <div class="mx-auto text-center">
+            <!-- Logo do Site -->
+            <a href="index.html" class="navbar-brand">
+                <img src="https://pngimg.com/uploads/paper_plane/paper_plane_PNG14.png" width="30" height="30" alt="Logo">
+                JFK Turismo
+            </a>  
+        </div>
+    </nav>
+
+    <!-- Corpo do Site -->
+
+    <div>
+
+        <p class="pagamento-titulo">Selecione a forma de pagamento:</p>
+
+        <div class="container">
+        <div class="col-sm-12">
+
+        <div class="form-group">
+            <div class="form-check pagamento-caixa col py-3 px-lg-5">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="opcao1" checked>
+                <label class="form-check-label" for="exampleRadios1">
+                <h6>Boleto</h6>
+                </label>
+                <p class="font-weight-light">O pagamento pode ser realiza em até 3 dias, opós esse período o pedido será concelado (pode levar até 24 horas para o pagamento ser precessado).</p>
+            </div>
+
+            <div class="form-check pagamento-caixa col py-3 px-lg-5">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="opcao2">
+                <label class="form-check-label" for="exampleRadios2">
+                 <h6>Pix</h6>
+                </label>
+                <p class="font-weight-light">Enviaremos o código Pix para o seu email, por favor verificar a caixa de Spam (seu pedido será processado em até 30 minutos!)</p>
+            </div>
+
+            <div class="form-check pagamento-caixa col py-3 px-lg-5">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="opcao2">
+                <label class="form-check-label" for="exampleRadios2">
+                <h6>Cartão</h6>
+                </label>
+                <p class="font-weight-light">Ensira os dados so seu cartão para o pagamento ser realizado</p>
+                
+                <div>
+                    
+                    <label for="">Número do seu cartão:</label>
+                    <input type="text" class="form-control" aria-describedby="emailHelp" placeholder="Número do cartão">
+                    <br>
+                    <label for="">Nome no cartão:</label>
+                    <input type="text" class="form-control" aria-describedby="emailHelp" placeholder="Nome do cartão">
+                    <br>
+                    <label for="">Data de expiração:</label>
+                    <input type="Date" class="form-control text-secondary" aria-describedby="emailHelp" placeholder="">
+                    <br>
+                    <label for="">Código de Segurança (CVV):</label>
+                    <input type="text" class="form-control" aria-describedby="emailHelp" placeholder="Código de Segurança">                    
+                    <br>    
+                    <input type="checkbox">
+                    <label>Concordo com o uso do cartão</label>
+                    <br><br>
+                    <a href=""><button type="button" class="btn btn-outline-secondary btn-sm">Salvar cartão</button></a>
+                      
+                </div>
+            </div>
+        
+      </div>
+        <div class="pagamento-botao">
+        <a href="finalizar.html"><button type="button" class="btn btn-warning btn-lg">Continuar</button></a>
+        <a href="index.html"><button type="button" class="btn btn-outline-secondary btn-sm">Cancelar</button></a>
+        </div>
+
+        </div>
+        </div>
+    </div>
+
+</body>
+
+
+<!--JavaScript Bundle with Popper-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
+    </script>
+
+
+</html>
